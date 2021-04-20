@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hw2": "nodemon --exec babel-node hw-2/index.ts --extensions \".ts\""
+    "hw2": "nodemon --exec babel-node hw-2/index.ts --extensions \".ts\"",
+    "hw3": "nodemon --exec babel-node hw-3/index.ts --extensions \".ts\""
   },
   "keywords": [],
   "author": "",
@@ -31,11 +32,16 @@
   },
   "dependencies": {
     "@hapi/joi": "^16.1.8",
+    "cors": "^2.8.5",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-joi-validation": "^5.0.0",
-    "uuid": "^8.3.2"
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
   },
   "jest": {
     "testEnvironment": "node",
